@@ -12,6 +12,6 @@ FROM openjdk:17-oracle
 WORKDIR /app
 EXPOSE 8083
 
-COPY --from=MAVEN /build/target/apigateway.jar /app/
+COPY --from=MAVEN /build/target/configserver.jar /app/
 
 ENTRYPOINT ["java", "-jar", "configserver.jar"]
