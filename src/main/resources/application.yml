@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: config-service
+    name: configserver-service
 
   cloud:
     config:
@@ -12,6 +12,10 @@ spring:
           uri: https://github.com/Istiyakmi9/ems_config-service
           clone-on-start: true
 
+
+eureka:
+  client:
+    enabled: false
 
 #eureka:
 #  client:
