@@ -12,13 +12,8 @@ spring:
           uri: https://github.com/Istiyakmi9/ems_config-service
           clone-on-start: true
 
-
 eureka:
   client:
-    enabled: false
-
-#eureka:
-#  client:
-#    enabled: true
-#    serviceUrl:
-#      defaultZone: http://localhost:8080/eureka
+    enabled: true
+    serviceUrl:
+      defaultZone: http://localhost:8080/eureka
