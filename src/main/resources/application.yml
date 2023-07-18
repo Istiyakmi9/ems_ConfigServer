@@ -9,6 +9,8 @@ spring:
     config:
       server:
         git:
+          username: Istiyakmi9
+          password: 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
           uri: https://github.com/Istiyakmi9/ems_config-service
           clone-on-start: true
 
