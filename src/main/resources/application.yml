@@ -10,7 +10,7 @@ spring:
       server:
         git:
           username: Istiyakmi9
-          password: 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
+          password: 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
           uri: https://github.com/Istiyakmi9/boot_configuration
           clone-on-start: true
 
