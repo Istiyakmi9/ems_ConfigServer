@@ -11,7 +11,7 @@ spring:
         git:
           username: Istiyakmi9
           password: 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
-          uri: https://github.com/Istiyakmi9/bt_vault_key_configuration
+          uri: https://github.com/Istiyakmi9/boot_configuration
           clone-on-start: true
 
 eureka:
