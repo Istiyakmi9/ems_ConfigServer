@@ -14,7 +14,6 @@ spring:
           uri: https://github.com/Istiyakmi9/bt_vault_key_configuration
           clone-on-start: true
 
-
 eureka:
   client:
     enabled: true
