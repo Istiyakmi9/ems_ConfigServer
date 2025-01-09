@@ -10,7 +10,7 @@ spring:
       server:
         git:
           username: Istiyakmi9
-          password: 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
+          password: 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
           uri: https://github.com/Istiyakmi9/bt_vault_key_configuration
           clone-on-start: true
 
